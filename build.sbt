@@ -7,6 +7,6 @@ version := "1.0"
 Compile / doc / scalacOptions := Seq("-groups", "-implicits")
 parallelExecution in Test := false
 
-libraryDependencies += "com.github.scopt" % "scopt_2.13" % "4.0.1"
-libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.9"
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.9" % "test"
+libraryDependencies += "com.github.scopt" % "scopt_2.13" % "4.1.0"
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.18"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.18" % "test"
